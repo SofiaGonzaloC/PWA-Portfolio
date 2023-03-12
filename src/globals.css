@@ -1,3 +1,7 @@
+body {
+    background-image: url("../images/backgroundgalaxy.gif");
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
