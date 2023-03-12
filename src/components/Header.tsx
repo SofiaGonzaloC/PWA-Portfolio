@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Tabs } from "../interfaces/Tabs";
-import "98.css";
 
 export const Header = ({ tabs }: { tabs: Tabs[] }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
