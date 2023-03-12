@@ -1,12 +1,17 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
+import { Header } from "./components/Header";
+import { Tabs } from "./interfaces/Tabs";
+
+const tabs: Tabs[] = [
+  { name: "Home", href: "#" },
+  { name: "About me", href: "#" },
+  { name: "My work", href: "#" },
+  { name: "Contact me", href: "#" },
+];
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Header tabs={tabs} />
     </>
   );
 }
