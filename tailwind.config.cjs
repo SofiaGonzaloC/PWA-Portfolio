@@ -5,6 +5,9 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      comic: ["'Comic Neue'",'cursive']
+    },
     extend: {
       colors: {
         // 'rose': { DEFAULT: '#FF00C1', 50: '#FFB8EE', 100: '#FFA3E9', 200: '#FF7ADF', 300: '#FF52D5', 400: '#FF29CB', 500: '#FF00C1', 600: '#C70097', 700: '#8F006C', 800: '#570042', 900: '#1F0017' },
