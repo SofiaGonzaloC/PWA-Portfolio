@@ -20,7 +20,7 @@ export const Header = ({ tabs }: { tabs: Tabs[] }) => {
               </button>
             </div>
 
-            <div className="field-row hidden lg:flex">
+            <div className="lg:field-row hidden lg:flex">
               {tabs.map((tab) => (
                 <button>
                   {" "}
