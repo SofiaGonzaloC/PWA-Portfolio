@@ -2,6 +2,7 @@ import { Header } from "./components/Header";
 import { Tabs } from "./interfaces/Tabs";
 import { Home } from './components/Home';
 import { About } from './components/About';
+import { Work } from './components/Work';
 
 const tabs: Tabs[] = [
   { name: "Home", href: "#home" },
@@ -16,6 +17,7 @@ function App() {
       <Header tabs={tabs} />
       <Home />
       <About />
+      <Work />
     </>
   );
 }
