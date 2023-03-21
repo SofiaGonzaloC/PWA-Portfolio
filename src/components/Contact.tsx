@@ -25,7 +25,7 @@ export const Contact = () => {
       <Window title="Contact me">
         <div className="flex justify-evenly items-center">
           {links.map((link) => (
-            <a className="text-center m-6 hover:underline" href={link.href}>
+            <a key={link.name} className="text-center m-6 hover:underline" href={link.href}>
               <img src={link.img} alt={link.name} className="w-24 h-24"/>
               <h5>{link.name}</h5>
             </a>

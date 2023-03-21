@@ -21,8 +21,8 @@ export const Header = ({ tabs }: { tabs: Tabs[] }) => {
             </div>
 
             <div className="lg:field-row hidden lg:flex">
-              {tabs.map((tab) => (
-                <a href={tab.href}>
+              {tabs.map((tab, index) => (
+                <a key={index} href={tab.href}>
                   <button>{tab.name}</button>
                 </a>
               ))}
