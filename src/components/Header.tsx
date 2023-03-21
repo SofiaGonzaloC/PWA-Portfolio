@@ -6,7 +6,7 @@ export const Header = ({ tabs }: { tabs: Tabs[] }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white">
+    <header className="bg-white fixed w-full z-50">
       <nav
         className="mx-auto flex items-center justify-center"
         aria-label="Global"
@@ -22,10 +22,9 @@ export const Header = ({ tabs }: { tabs: Tabs[] }) => {
 
             <div className="lg:field-row hidden lg:flex">
               {tabs.map((tab) => (
-                <button>
-                  {" "}
-                  <a href={tab.href}>{tab.name}</a>
-                </button>
+                <a href={tab.href}>
+                  <button>{tab.name}</button>
+                </a>
               ))}
             </div>
           </div>
