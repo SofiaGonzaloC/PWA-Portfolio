@@ -12,7 +12,7 @@ export default defineConfig({
         "background_color": "#1C192E",
         "display": "standalone",
         "scope": "/",
-        "start_url": "https://pwa-portfolio.vercel.app/",
+        "start_url": ".",
         "name": "SofiaGonzaloC",
         "short_name": "SGC",
         "description": "Sofia's portfolio",
