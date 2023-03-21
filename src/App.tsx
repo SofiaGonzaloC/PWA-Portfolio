@@ -3,6 +3,7 @@ import { Tabs } from "./interfaces/Tabs";
 import { Home } from './components/Home';
 import { About } from './components/About';
 import { Work } from './components/Work';
+import { Contact } from './components/Contact';
 
 const tabs: Tabs[] = [
   { name: "Home", href: "#home" },
@@ -18,6 +19,7 @@ function App() {
       <Home />
       <About />
       <Work />
+      <Contact />
     </>
   );
 }
